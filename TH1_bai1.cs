@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text;
+using System.IO;
 namespace bths1
 {
     class DIEM
@@ -34,6 +35,7 @@ namespace bths1
             DIEM b = new DIEM(); b.nhap(); b.hien();
             Console.WriteLine("khoảng cách là: " + a.khoangcach(b));
             Console.ReadKey();
+
         }
     }
 }
